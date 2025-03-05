@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Atrium-Innovations Automation test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Atrium-Innovations test cases(failed)">
+    <classes>
+      <class name="com.nestle.framework.TestCases.TEST_M2FE_AccountCreation">
+        <methods>
+          <include name="accountCreation_test"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.nestle.framework.TestCases.TEST_M2FE_AccountCreation -->
+    </classes>
+  </test> <!-- Atrium-Innovations test cases(failed) -->
+</suite> <!-- Failed suite [Atrium-Innovations Automation test suite] -->

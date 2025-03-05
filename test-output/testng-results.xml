@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-04T14:16:26 IST" name="Nestle Automation test suite" finished-at="2025-03-04T14:17:13 IST" duration-ms="47161">
+    <groups>
+    </groups>
+    <test started-at="2025-03-04T14:16:26 IST" name="Nestle test cases" finished-at="2025-03-04T14:17:13 IST" duration-ms="47161">
+      <class name="com.nestle.framework.TestCases.TEST_M2FE_AccountCreation">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.nestle.framework.TestCases.TEST_M2FE_AccountCreation@56276db8]" started-at="2025-03-04T14:16:26 IST" name="initialization" finished-at="2025-03-04T14:17:02 IST" duration-ms="36583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="accountCreation_test()[pri:0, instance:com.nestle.framework.TestCases.TEST_M2FE_AccountCreation@56276db8]" started-at="2025-03-04T14:17:02 IST" name="accountCreation_test" finished-at="2025-03-04T14:17:12 IST" duration-ms="9887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountCreation_test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nestle.framework.TestCases.TEST_M2FE_AccountCreation@56276db8]" started-at="2025-03-04T14:17:12 IST" name="tearDown" finished-at="2025-03-04T14:17:13 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nestle.framework.TestCases.TEST_M2FE_AccountCreation -->
+    </test> <!-- Nestle test cases -->
+  </suite> <!-- Nestle Automation test suite -->
+</testng-results>

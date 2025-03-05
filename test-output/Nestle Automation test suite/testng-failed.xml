@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Nestle Automation test suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.nestle.framework.Util.ListenersImplementation"/>
+  </listeners>
+  <test thread-count="5" name="Nestle test cases(failed)">
+    <classes>
+      <class name="com.nestle.framework.TestCases.TEST_M2FE_AccountCreation">
+        <methods>
+          <include name="accountCreation_test"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.nestle.framework.TestCases.TEST_M2FE_AccountCreation -->
+    </classes>
+  </test> <!-- Nestle test cases(failed) -->
+</suite> <!-- Failed suite [Nestle Automation test suite] -->

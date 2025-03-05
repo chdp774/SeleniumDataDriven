@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Nestle Automation test suite">
+	<listeners>
+		<listener class-name="com.nestle.framework.Util.ListenersImplementation" />
+	</listeners>
+	
+	<test name="Nestle test cases">
+		<classes>
+			<class name="com.nestle.framework.TestCases.TEST_M2FE_AccountCreation" />
+		</classes>
+	</test>
+	
+</suite>
