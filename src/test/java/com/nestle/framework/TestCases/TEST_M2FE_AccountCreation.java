@@ -19,7 +19,7 @@ public class TEST_M2FE_AccountCreation extends TestBase{
 		m2fe.accountCreation("automation1234@yahoo.in", "selenium", "automation", "9000900090", "Dentistry", "adv123", "For personal or family use", 
 				"99 UNIVERSITY AVE", "NEW CASTLE", "Delaware", "19720-4319", "Catalog Mail");
 
-#okay checking
+#okay
 	}
 	
 	
