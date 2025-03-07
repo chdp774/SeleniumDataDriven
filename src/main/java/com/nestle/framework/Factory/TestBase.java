@@ -17,7 +17,7 @@ public class TestBase extends CommonFunctions{
 	
 	@BeforeMethod
 	public static void initialization() {
-		
+		//test comment
 		String browser = PropertiesReader.getPropertyvaluebyKey("browser");
 		String M2FE_URL = PropertiesReader.getPropertyvaluebyKey("magento_frontend_url");
 		if(browser.equalsIgnoreCase("chrome")) {
